@@ -1,0 +1,27 @@
+Package: nosh
+Title: Opinionated Notion API Access
+Version: 0.1.0
+Authors@R: 
+    person(given = "Sean",
+           family = "Kross",
+           role = c("aut", "cre"),
+           email = "sean@seankross.com",
+           comment = c(ORCID = "0000-0001-5215-0316"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+URL: https://github.com/seankross/nosh
+BugReports: https://github.com/seankross/nosh/issues
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.1.0)
+Imports: 
+    httr2,
+    purrr,
+    tibble
+RoxygenNote: 7.2.3
+Suggests: 
+    jsonlite,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
