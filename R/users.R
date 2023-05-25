@@ -4,7 +4,7 @@
 #' your account.
 #'
 #' @importFrom httr2 request req_user_agent req_headers req_url_path_append req_perform resp_body_json req_url_query
-#' @importFrom tibble tibble
+#' @importFrom dplyr tibble
 #' @importFrom purrr map_dfr
 #' @export
 #' @examples

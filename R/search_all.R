@@ -7,7 +7,7 @@
 #' all pages and databases you have access to (this is the default).
 #' @importFrom httr2 request req_headers req_url_path_append req_body_json req_perform resp_body_json
 #' @importFrom purrr reduce map_dfr
-#' @importFrom tibble tibble
+#' @importFrom dplyr tibble
 #' @export
 #' @examples
 #' \dontrun{

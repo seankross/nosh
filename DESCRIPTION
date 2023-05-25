@@ -1,5 +1,5 @@
 Package: nosh
-Title: Opinionated Notion API Access
+Title: Opinionated 'Notion' API Access
 Version: 0.1.0
 Authors@R: 
     person(given = "Sean",
@@ -7,8 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "sean@seankross.com",
            comment = c(ORCID = "0000-0001-5215-0316"))
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Connect to the 'Notion' API to bring data from 'Notion' into your
+    R workflows.
 License: MIT + file LICENSE
 URL: https://github.com/seankross/nosh
 BugReports: https://github.com/seankross/nosh/issues
@@ -17,9 +17,9 @@ LazyData: true
 Depends:
     R (>= 4.1.0)
 Imports: 
+    dplyr,
     httr2,
-    purrr,
-    tibble
+    purrr
 RoxygenNote: 7.2.3
 Suggests: 
     jsonlite,
