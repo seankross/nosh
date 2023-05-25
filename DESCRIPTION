@@ -8,7 +8,7 @@ Authors@R:
            email = "sean@seankross.com",
            comment = c(ORCID = "0000-0001-5215-0316"))
 Description: Connect to the 'Notion' API to bring data from 'Notion' into your
-    R workflows.
+    R work flows.
 License: MIT + file LICENSE
 URL: https://github.com/seankross/nosh
 BugReports: https://github.com/seankross/nosh/issues
