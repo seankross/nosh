@@ -1,6 +1,7 @@
 # [nosh](https://www.merriam-webster.com/dictionary/nosh)
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/nosh)](https://CRAN.R-project.org/package=nosh)
 [![R-CMD-check](https://github.com/seankross/nosh/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/seankross/nosh/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
