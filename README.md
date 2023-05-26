@@ -30,11 +30,15 @@ Sys.setenv("NOTION_IIS" = "secret_5nLEIYqDd6o58gd1ZAPP4OMH9OnVozyhN9XQysN1nFE")
 ```
 
 Your Notion integration is only aware of the pages and databases that you
-explicitly give it access to. To give your integration access to a page or
+explicitly give it access to. 
+
+- To grant your integration access to **User Capabilities**, navigate to the **Capabilities** page (located below **Secrets**) and select "Read user information including email addresses" within the "User capabilities" subsection.
+- To give your integration access to a page or
 database, go to that page or database, select the three dot icon in the 
 upper-right, click **Add connections**, then find the name of your Notion
 integration and click on it. Your integration (and R) is now able to access
 that page or database.
+
 
 Nosh has three main functions:
 
@@ -43,6 +47,8 @@ library(nosh)
 
 # List all users
 nosh::users()
+# If you get HTTP 403 Forbidden Error,
+# grant your integration access to user capabilities
 
 # List all pages and databases
 nosh::search_all()
